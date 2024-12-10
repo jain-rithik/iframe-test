@@ -28,10 +28,10 @@
   }
 
   function open(url, onSuccess, onFailure) {
-    if (!url.includes("potleex0.de") && !url.includes("settle.club")) {
-      onFailure({ errorMsg: "Invalid URL provided" });
-      return;
-    }
+    // if (!url.includes("potleex0.de") && !url.includes("settle.club")) {
+    //   onFailure({ errorMsg: "Invalid URL provided" });
+    //   return;
+    // }
 
     const modal = document.getElementById("sdk-modal") || createModal();
     const iframe = document.getElementById("sdk-iframe");
